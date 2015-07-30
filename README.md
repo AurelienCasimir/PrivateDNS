@@ -13,7 +13,7 @@ Installation:
 Requirements: 
 - 64-bits Linux OS: g++>=4.8, gcc>=4.8
 
-Install XPIR, libnet (http://packetfactory.openwall.net/projects/libnet/) and libnetfilter_queue (http://www.netfilter.org/projects/libnetfilter_queue/)
+Install XPIR (https://github.com/AurelienCasimir/XPIR/archive/master.zip), libnet (http://packetfactory.openwall.net/projects/libnet/) and libnetfilter_queue (http://www.netfilter.org/projects/libnetfilter_queue/)
 
 Download the project from https://github.com/AurelienCasimir/PrivateDNS/archive/master.zip
 
