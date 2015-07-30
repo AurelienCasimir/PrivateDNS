@@ -15,8 +15,7 @@ Requirements:
 
 Install XPIR, libnet (http://packetfactory.openwall.net/projects/libnet/) and libnetfilter_queue (http://www.netfilter.org/projects/libnetfilter_queue/)
 
-Download the project :
-TODO
+Download the project from https://github.com/AurelienCasimir/PrivateDNS/archive/master.zip
 
 Then go to the project folder and use the "make" command.
 
@@ -44,7 +43,8 @@ $ ./build/PIRServer --db-mix -n 65536 -z
 ```
 If you want the server to listen on another port than the default one (=1234), add the option -p <port>
 
-In another terminal (in the XPIR folder) execute this command to configure the terminal:
+
+In another terminal (in the XPIR folder) execute this command to configure the server:
 ```
 $ cd client
 $ ./build/PIRClient -r LWE:97:1024:60 -a 1 --dmin 2 --dmax 2 -c
@@ -57,6 +57,9 @@ In the project folder execute the following command to start the proxy:
 ```
 $ sudo ./proxy.sh <XPIR folder path> <server IP address>
 ```
+If the server is not listening on the default port add <port> at the end of the previous command.
+
+
 To stop the execution of the proxy:
 ```
 sudo pkill xpir_proxy
