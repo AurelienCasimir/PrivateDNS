@@ -1,6 +1,8 @@
 Private DNS protocol using XPIR
 ===============================
 
+**Warning:* In the current state of developpment the project is not working
+
 This project is a proxy that captures and translates DNS requests into XPIR requests and then translates the answers into DNS answers. By using this proxy with a DNS server containing a database of DNS entries it allows a private DNS protocol. 
 
 For more information about XPIR check https://github.com/XPIR-team/XPIR/
